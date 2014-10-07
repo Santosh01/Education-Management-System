@@ -1,0 +1,66 @@
+﻿<%@ Master Language="VB" CodeFile="Main.master.vb" Inherits="Main" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Login</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="pnlPopup" class="PrProgress" style="display: none;">
+            <div id="innerPopup" class="PrContainer">
+                <div class="PrHeader">
+                    Processing, please wait...
+                </div>
+                <div class="PrBody">
+                    <img width="220px" height="19px" src="Images/activity.gif" alt="loading..." />
+                </div>
+            </div>
+        </div>
+        <div id="page" align="center">
+            <div id="toppage" align="center">
+                <div id="date">
+                    <div class="smalltext" style="padding: 13px;">
+                        <asp:Label ID="currentdt" runat="server" Text="Label"></asp:Label></div>
+                </div>
+                <div id="topbar">
+                    <div align="right" style="padding: 12px;" class="smallwhitetext">
+                  
+                    <marquee>“Climbing to the top demands strength, whether it is to the top of Mount Everest or to the top of your career.”&nbsp &nbsp  by &nbsp Dr.&nbsp A. &nbsp P. &nbsp J. &nbsp Abdul Kalam &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  "To teach is to learn twice"&nbsp &nbsp by Joseph Joubert &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  "The secret in education lies in respecting the student" &nbsp &nbsp Ralph Waldo Emerson</marquee>
+                     
+                    
+                       <asp:Label ID="lblAccyear" runat="server" Text="" class="smallwhitetext" EnableTheming="false"></asp:Label>
+                       <a href="Login.aspx?action=LOGOUT">
+                            Logout</a></div>
+                </div>
+            </div>
+            <div id="header" align="justify">
+                <div id="pagetitle" align="center">
+                    <div id="title" class="titletext" align="right">
+                    </div>
+                </div>
+                <div id="topmenu" align="center">
+                    <div>
+                        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" EnableTheming="True"
+                            StaticEnableDefaultPopOutImage="FALSE" StaticMenuItemStyle-CssClass="menuStaticItem"
+                            StaticHoverStyle-CssClass="menuStaticHowerItem" DynamicMenuItemStyle-CssClass="menuDynamicItem"
+                            DynamicHoverStyle-CssClass="menuDynamicHowerItem">
+                        </asp:Menu>
+                    </div>
+                </div>
+            </div>
+            <div id="content" align="center">
+                <div>
+                    <div style="background-color: #F6F6F6;">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+            <div id="footer" class="smallgraytext" align="center">
+            <br />
+                Project By Santosh Dubey & Almin Pogalva<br />
+            </div>
+        </div>
+    </form>
+</body>
+</html>

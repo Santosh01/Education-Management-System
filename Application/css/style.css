@@ -1,0 +1,467 @@
+﻿/* CSS Document */
+/* CSS Document */
+.grouphead
+{
+	background: no-repeat left bottom;
+	background-color: #808080;
+	color:White;
+	font-size: 9pt;
+	font-family: Arial;
+	font-weight: bold;
+	
+}
+/*PAGE LAYOUT*/
+body {
+	background-image: url(../images/bg_body.jpg);
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+}
+
+
+
+#toppage{
+	width:900px;
+	
+}
+#date{
+	float:left; width:189px; height:39px; border-bottom:solid 1px #999999; border-left:solid 1px #999999;border-right:solid 1px #999999;
+}
+#topbar{
+	float:left; 
+	width:708px; 
+	height:40px; 
+	background-image:url(bg_topbar.gif);
+	background-color:#f8971d;
+	background-repeat:repeat-x;
+	border-right:solid 1px #999999;
+
+}
+#header{
+	width:900px; 
+}
+
+#sidemenu
+{
+	float:left;
+	width:300px;
+    
+}
+
+#content{
+	width:898px;
+	border-left:solid 1px #999999; border-right:solid 1px #999999; 
+	border-bottom:solid 1px #999999; border-top:dotted 1px #CCCCCC; 
+height:auto;
+}
+#contenttext{
+	float:left; width:608px; 
+	background-color:#F7F7F7; 
+	border-left:solid 1px #999999; border-right:solid 1px #999999; 
+	border-bottom:solid 1px #999999; border-top:dotted 1px #CCCCCC; 
+	min-height:360px;
+}
+#logo{
+	float:left; width:190px; height:110px; background-color:#ffffff; border-left:solid 1px #999999;
+	
+}
+#pagetitle{
+	position:relative; float:left; width:898px; height:110px; background-color:#ffffff; border-right:solid 1px #999999;border-left:solid 1px #999999;
+    background-image:url(../images/education_banner.gif); 
+}
+
+.pagetitle
+{
+    height:160px;
+    width:1000px;
+    background-repeat:no-repeat; 
+    background-position:center;
+    position:relative; 
+    border:1;
+}
+
+#title{
+	position:relative; right:10px; top:50px; width:600px; 
+	font-size: 28px;
+	color: #666666;
+}
+#menu{
+	float:left; width:190px; margin:0px;
+}
+#footer{
+	width:900px; padding-right:10px; 
+	
+}
+
+.dropdown
+{
+    font-size:10pt;
+    margin-bottom:2px;
+    height:26px;
+    width:220px;
+    border:1px solid #d5d5d5;
+    text-transform:uppercase;
+    vertical-align:middle;
+}
+
+
+
+/*GRAY PANEL*/
+.panel{
+
+	border:solid 1px #E4E4E4;
+	background-color:#EEEEEE;
+	height:100%;
+
+
+}
+
+
+
+
+/*TEXT STYLES*/
+.GridNumericText {
+	text-align:right;
+}
+
+.bodytext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 13px;
+	color: #666666;
+}
+.smalltext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	color: #666666;
+}
+.smallwhitetext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #FFFFFF;
+}
+.smallwhitetext a{
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.smallwhitetext a:hover{
+	text-decoration:underline;
+}
+.smallgraytext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color:#000000;
+}
+.smallgraytext a{
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color:#CCCCCC;
+	text-decoration:none;
+}
+.smallgraytext a:hover{
+	text-decoration:underline;
+}
+.titletext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	color: #CCCCCC;
+}
+
+.logotext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size:36px;
+	font-weight:bold;
+	color: #999999;
+}
+.orangelogotext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size:36px;
+	font-weight:bold;
+	color:#FF9900;
+}
+.orangetitle {
+	font: 0.7em Tahoma, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#336666;
+}
+#topmenu
+{
+	right:0px;
+	float:left; 
+	width:898px; 
+	height:30px; 
+	background-image:url(../Images/multiplemenus-out-bg.gif);
+	background-repeat:repeat-x;
+	border-right:solid 1px #999999;
+	border-left:solid 1px #999999;
+}
+
+#linksmenu a
+{
+	float:left; 
+	width:70px; 
+	height:25px; 
+	background-color:Transparent; border-left:solid 0px #FFFFFF; border-bottom:solid 1px #FFFFFF;
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	color: #000000;
+	text-decoration:none;
+	padding-top:5PX;
+	
+}
+#linksmenu a:hover{
+	
+	float:left; 
+	width:70px; 
+	height:25px; 
+	background-color:#f8971d; border-left:solid 0px #FFFFFF; border-bottom:solid 1px #FFFFFF;
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	color: #ffffff;
+	text-decoration:none;
+	padding-top:5PX;
+	
+}
+
+
+
+#sidelinksmenu a{
+	float:left; 
+	width:150px; 
+	height:20px; 
+	background-image:url(../Images/SideMenuBackground.gif);
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	color: #000000;
+	text-decoration:none;
+	padding-left:10px;
+	padding-top:5px;
+	border-left:solid 1px #999999; border-right:solid 1px #999999; 
+	border-bottom:solid 1px #999999; border-top:dotted 1px #CCCCCC; 
+}
+
+#sidelinksmenu a:hover{
+	
+	float:left; 
+	width:150px; 
+	height:20px; 
+	background-color:#f8971d; border-left:solid 0px #FFFFFF; border-bottom:solid 1px #FFFFFF;
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	color: #ffffff;
+	text-decoration:none;
+	padding-left:10px;
+	padding-top:5px;
+}
+
+#sidemenu
+{
+	right:10px;
+	float:left; 
+	width:180px;
+
+}
+#bodydiv
+{
+	right:10px;
+	float:left; 
+	background-color:#F6F6F6;
+ text-align:center;
+ 
+    
+}
+
+
+#bodydiv2
+{
+	
+	right:20px;
+	float:left; 
+	background-color:#F6F6F6;
+ background-image:url(../Images/leaning bookss.jpg);
+ background-position:left;
+ 
+    
+}
+
+#bodydiv11
+{
+	right:10px;
+	float:left; 
+	width:100%; 
+	
+ 
+}
+.td_label
+{
+	text-align:right;
+}
+
+.td_control
+{
+	text-align:left;
+}
+
+
+.InnerForm
+{
+	width:100%;
+	float:left; 
+	border:1 1 ;
+	border-left:1PX;
+}
+#TamplateAlign
+{
+	text-align:center;
+	width:100px;
+	
+}
+
+
+
+.PrProgress
+{
+    display: block;
+    position: absolute;
+    padding: 2px 3px;
+}
+.PrContainer
+{
+    border: solid 1px #808080;
+    border-width: 1px 0px;
+}
+.PrHeader
+{
+    background: url(../Images/sprite.png) repeat-x 0px 0px;
+    border-color: #808080 #808080 #ccc;
+    border-style: solid;
+    border-width: 0px 1px 1px;
+    padding: 0px 10px;
+    color: #000000;
+    font-size: 9pt;
+    font-weight: bold;
+    line-height: 1.9;  
+    white-space:nowrap;
+    font-family: arial,helvetica,clean,sans-serif;
+}
+.PrBody
+{
+    background-color: #f2f2f2;
+    border-color: #808080;
+    border-style: solid;
+    border-width: 0px 1px;
+    padding: 10px;
+}
+.PrIFrame
+{
+	
+}
+
+.menuStaticItem
+{
+   	float:left; 
+	width:120px; 
+	height:20px; 
+	background-color:Transparent; border-left:solid 0px #FFFFFF; border-bottom:solid 1px #FFFFFF;
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	color: #000000;
+	text-decoration:none;
+	padding-top:3PX;
+}
+
+.menuStaticHowerItem
+{
+   float:left; 
+	width:120px; 
+	height:20px; 
+	background-color:#f8971d; border-left:solid 0px #FFFFFF; border-bottom:solid 1px #FFFFFF;
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	color: #ffffff;
+	text-decoration:none;
+	padding-top:3PX;
+}
+
+.menuDynamicItem
+{
+   float:left; 
+	width:150px; 
+	height:20px; 
+	/*background-image:url(../Images/SideMenuBackground.gif);*/
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	color: #000000;
+	text-decoration:none;
+	text-align:left;
+	padding-left:10px;
+	padding-top:2px;
+	border-left:solid 1px #999999; border-right:solid 1px #999999; 
+	border-bottom:solid 1px #999999; border-top:dotted 1px #CCCCCC;
+	z-index: 1; 
+}
+
+.menuDynamicHowerItem
+{
+   float:left; 
+	width:150px; 
+	height:20px; 
+	background-color:#f8971d; border-left:solid 0px #FFFFFF; border-bottom:solid 1px #FFFFFF;
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	color: #ffffff;
+	text-decoration:none;
+	text-align:left;
+	padding-left:10px;
+	padding-top:2px;
+}
+
+
+/* Validation and error messages class */
+.watermark
+{
+	font-size:10px;
+	font-style:italic;
+	font-variant:normal;
+	color:Green;
+	
+}
+.validationsummery
+{
+	position:relative;
+	padding:0px 0px 13px 0px;
+	font-size:20px;
+	width:99%;
+	background-color:#FF9966;
+}
+
+
+.validatinheader
+{
+	position:relative;
+	font-size:11px;
+	background-color:#e5d9bd;
+	color:#56300a;
+	height:14px;
+	font-weight:bold;
+	border-bottom:1px solid #b08b34;
+}
+.

@@ -1,0 +1,16 @@
+<asp:Label runat="server" Font-Names="Sans-Serif" Font-Underline="false" ForeColor="#000000" Font-Size="10pt"  />
+<asp:TextBox runat="server" Font-Names="Sans-Serif" Font-Underline="false" BorderColor="#4b4b4b" BorderWidth="1px" ForeColor="#000000" Font-Size="10pt"/>
+<asp:Button runat="server" Width="90px" />
+<asp:LinkButton runat="server"  Font-Names="Sans-Serif" Font-Underline="false" ForeColor="#000000" Font-Size="10pt" />
+<asp:CheckBox runat="server" />
+<asp:RadioButton runat="server"  />
+<asp:GridView runat="server"  AllowSorting="True" AutoGenerateColumns="False" CssClass="GridViewStyle" Width="100%">
+<FooterStyle BackColor="White" ForeColor="#333333" Font-Names="Sans-Serif" Font-Size="10pt"/>
+<RowStyle BackColor="White" ForeColor="#333333" Font-Names="Sans-Serif;Sans-Serif" Font-Size="10pt" />
+<SelectedRowStyle BackColor="#339966" Font-Bold="True" ForeColor="White" Font-Names="Sans-Serif" Font-Size="10pt"/>
+<PagerStyle BackColor="#336666" ForeColor="White" HorizontalAlign="Center" Font-Names="Sans-Serif" Font-Size="10pt"/>
+<HeaderStyle BackColor="#f8971d" Font-Bold="True" ForeColor="White" Font-Names="Sans-Serif" Font-Size="10pt"/>
+</asp:GridView>
+
+<asp:DropDownList  Font-Names="Sans-Serif;Sans-Serif" Font-Size="10pt"  runat="server"/>
+<asp:ListBox Font-Names="Sans-Serif;Sans-Serif"  runat="server"/>
